@@ -213,9 +213,6 @@
 									 			</ul>
 	                     </div>
 
-
-
-
                  <div style="clear:both"></div>
 
  							 <h6>distribúcie</h6>
