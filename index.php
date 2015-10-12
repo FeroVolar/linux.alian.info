@@ -1,8 +1,5 @@
 <?php
 include "header.php"
-?>
-
-<?php
 include "includes/simplepie.inc";
 include "includes/idn/idna_convert.class.php";
 ?>
@@ -25,7 +22,7 @@ include "includes/idn/idna_convert.class.php";
                     </div>
 
 
-                    
+
                     <div class="newsblock">
                         <h2><a href="http://planet.opensoft.sk/" title="Slovenská a česká komunita okolo free software. Obsah blogov nie je tematicky vyhranený"><b>SK/CZ</b> free software community</a></h2>
                         <ul>
@@ -38,16 +35,16 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-               
+
                         <a href="http://feeds.feedburner.com/linuxAI"><img src="http://linux.alian.info/images/rss.gif" border="0" align="right" alt="RSS" /></a>
 
-                    
+
                     <div style="clear:both"></div>
-                 
-                 
-                    
+
+
+
                     <div class="newsblock">
-                        <h2><img src="http://linuxos.sk/favicon.png" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - články</a></h2>
+                        <h2><img src="http://linuxos.sk/favicon.ico" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - články</a></h2>
                         <ul>
 				<?php $feed03 = new SimplePie('http://linuxos.sk/clanok_rss/index.html'); ?>
 				<?php foreach ($feed03->get_items(0, 10) as $item): ?>
@@ -58,9 +55,9 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                     <div class="newsblock">
-                        <h2><img src="http://linuxos.sk/favicon.png" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - správičky</a></h2>
+                        <h2><img src="http://linuxos.sk/favicon.ico" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - správičky</a></h2>
                         <ul>
 				<?php $feed04 = new SimplePie('http://linuxos.sk/spravy_rss/index.html'); ?>
 				<?php foreach ($feed04->get_items(0, 10) as $item): ?>
@@ -71,10 +68,10 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                     <div class="newsblock">
-                   
-                        <h2><img src="http://linuxos.sk/favicon.png" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - fórum</a></h2>
+
+                        <h2><img src="http://linuxos.sk/favicon.ico" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - fórum</a></h2>
                         <ul>
 				<?php $feed05 = new SimplePie('http://linuxos.sk/forum_rss/index.html'); ?>
 				<?php foreach ($feed05->get_items(0, 8) as $item): ?>
@@ -85,7 +82,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul><br />
 			<div id="bo">
-                        Dnes je <?php echo date("d. m. Y",time()) ?>. Aktuálna verzia kernelu je  
+                        Dnes je <?php echo date("d. m. Y",time()) ?>. Aktuálna verzia kernelu je
                         <b> <?php $feed06 = new SimplePie('http://www.kernel.org/kdist/rss.xml'); ?>
 				<?php foreach ($feed06->get_items(3, 1) as $item): ?>
 				        <a href="<?php print $item->get_permalink(); ?>">
@@ -94,9 +91,9 @@ include "includes/idn/idna_convert.class.php";
 				    </b> a stiahnuť si ju môžete na <a href="http://www.kernel.org/" >The Linux Kernel Archives</a>
                     </div>
                     </div>
-                    
+
                     <div style="clear:both"></div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://abclinuxu.cz/images/site2/favicon.png" border="0" /> <a href="http://abclinuxu.cz" title="abclinuxu.cz - Linux na stříbrném podnose"><b>abclinuxu.cz</b> - články</a></h2>
                         <ul>
@@ -107,9 +104,9 @@ include "includes/idn/idna_convert.class.php";
 				        <?php print $item->get_title(); ?></a>
 				    </li>
 				<?php endforeach; ?>
-			</ul> 
+			</ul>
                     </div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://abclinuxu.cz/images/site2/favicon.png" border="0" /> <a href="http://abclinuxu.cz" title="abclinuxu.cz - Linux na stříbrném podnose"><b>abclinuxu.cz</b> - správičky</a></h2>
                         <ul>
@@ -120,9 +117,9 @@ include "includes/idn/idna_convert.class.php";
 				        <?php print $item->get_title(); ?></a>
 				    </li>
 				<?php endforeach; ?>
-			</ul>  
+			</ul>
                     </div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://abclinuxu.cz/images/site2/favicon.png" border="0" /> <a href="http://abclinuxu.cz" title="abclinuxu.cz - Linux na stříbrném podnose"><b>abclinuxu.cz</b> - blogy</a></h2>
                         <ul>
@@ -135,9 +132,9 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                     <div style="clear:both"></div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://i.iinfo.cz/r2/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Root.cz - linux, open source a free software"><b>root.cz</b> - články</a></h2>
                         <ul>
@@ -150,7 +147,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://i.iinfo.cz/r2/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Root.cz - linux, open source a free software"><b>root.cz</b> - správičky</a></h2>
                         <ul>
@@ -163,7 +160,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://i.iinfo.cz/r2/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Root.cz - linux, open source a free software"><b>root.cz</b> - blogy</a></h2>
                         <ul>
@@ -176,9 +173,9 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                     <div style="clear:both"></div>
-                    
+
                     <div class="newsblock">
                         <h2><img src="http://linux.alian.info/images/feed.png" border="0" /> <a href="http://linux.nfo.sk/" title="Fórum zaoberajúce sa nielen Linuxom..."><b>linux.nfo.sk</b></a></h2>
                         <ul>
@@ -191,7 +188,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                      </div>
-                    
+
                   <div class="newsblock">
                         <h2><img src="http://www.linuxon.sk/templates/jclick/favicon.ico" border="0" /> <a href="http://www.linuxon.sk/" title="LinuxON.sk všetko o Linuxe a OpenSource"><b>linuxon.sk</b></a></h2>
                         <ul>
@@ -204,7 +201,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                  <div class="newsblock">
                         <h2><img src="http://www.openoffice.cz/favicon.ico" border="0" /> <a href="http://www.openoffice.cz/" title="OpenOffice.cz  | Oficiální portál kancelářkého balíku OpenOffice.org"><b>openoffice.cz</b></a></h2>
                         <ul>
@@ -216,10 +213,10 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
 			</ul>
-                    </div>                    
-                    
+                    </div>
+
                     <div style="clear:both"></div>
-                   
+
                     <div class="newsblock">
                         <h2><img src="http://www.linuxexpres.cz/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Software, hardware, recenze, návody - Linux E X P R E S"><b>linuxexpres.cz</b></a></h2>
                         <ul>
@@ -232,7 +229,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                   <div class="newsblock">
                         <h2><img src="http://www.linuxsoft.cz/img/favicon.ico" border="0" /> <a href="http://www.linuxsoft.cz" title="Linux Software"><b>linuxsoft.cz</b></a></h2>
                         <ul>
@@ -245,7 +242,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                  <div class="newsblock">
                         <h2><img src="http://linux.alian.info/images/feed.png" border="0" /> <a href="http://blackhole.sk" title="blackhole.sk"><b>blackhole.sk</b></a></h2>
                         <ul>
@@ -257,9 +254,9 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
 			</ul>
-                    </div>  
+                    </div>
                           <div style="clear:both"></div>
-             
+
               <div>
                <h6>distribúcie  <!--<a href="#" title="#"><img src="images/arrow_top.png" border="0" /></a>--></h6>
                <div class="newsblock">
@@ -274,7 +271,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                 </div>
-                    
+
                   <div class="newsblock">
                         <h5><a href="http://ubuntu.wz.cz/" title="Poznámky uživatele Ubuntu Linuxu"><b>ubuntu.wz.cz</b></a></h5>
                         <ul>
@@ -287,7 +284,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                
+
                   <div class="newsblock">
                         <h5><a href="http://www.greenie.sk/forum.html" title="greenie.sk"><b>greenie.sk</b></a></h5>
                         <ul>
@@ -300,9 +297,9 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-		    
+
                           <div style="clear:both"></div>
-                  
+
                  <div class="newsblock">
                         <h5><a href="http://forums.gentoo.cz/" title="csGLUG - gentoo.cz"><b>gentoo.cz</b></a></h5>
                         <ul>
@@ -314,8 +311,8 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
 			</ul>
-                </div>       
-                          
+                </div>
+
                     <div class="newsblock">
                         <h5><a href="http://www.mandrivalinux.cz" title="MandrivaLinux.cz :: webový portál zaměřený na podporu a propagaci Mandriva Linuxu"><b>mandrivalinux.cz</b></a></h5>
                         <ul>
@@ -328,7 +325,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                    
+
                   <div class="newsblock">
                         <h5><a href="http://www.opensuse.cz" title="SUSE Linux Portal | Vše, co potřebujete pro váš SUSE Linux"><b>opensuse.cz</b></a></h5>
                         <ul>
@@ -341,7 +338,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                     </div>
-                
+
                         <div style="clear:both"></div>
                <h6>open-source</h6>
                   <div class="newsblock">
@@ -369,7 +366,7 @@ include "includes/idn/idna_convert.class.php";
 				<?php endforeach; ?>
 			</ul>
                 </div>
-                          
+
                  <div class="newsblock">
                         <h5><a href="http://www.czilla.cz/" title="CZilla: Mozilla v češtině"><b>czilla.cz</b></a></h5>
                         <ul>
@@ -381,11 +378,11 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
                         </ul>
-                </div>                          
-                                                 
+                </div>
+
                          <div style="clear:both"></div>
 
-               <h6>blogy</h6>             
+               <h6>blogy</h6>
                 <div class="newsblock">
                         <h5><a href="http://www.bibri.net/" title="Detaily dělají dokonalou práci"><b>bibri.net</b></a></h5>
                         <ul>
@@ -397,8 +394,8 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
                         </ul>
-                </div>  
-                         
+                </div>
+
                 <div class="newsblock">
                         <h5><a href="http://www.e-ott.info/" title="Život je slepá kolej..."><b>e-ott.info</b></a></h5>
                         <ul>
@@ -410,9 +407,9 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
                         </ul>
-                </div>    
-                
-                
+                </div>
+
+
                 <div class="newsblock">
                         <h5><a href="http://hodza.net/" title="I přestože jsem paranoidní neznamená, že mě nedostanou..."><b>hodza.net</b></a></h5>
                         <ul>
@@ -424,10 +421,10 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
                         </ul>
-                </div>                        
+                </div>
 
                          <div style="clear:both"></div>
-                                                   
+
                  <div class="newsblock">
                         <h5><a href="http://penguin.cz/" title="Neziskový server pro podporu Linuxu, UNIXu a free-software"><b>penguin.cz</b></a></h5>
                         <ul>
@@ -439,7 +436,7 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
                         </ul>
-                </div>    
+                </div>
 
                  <div class="newsblock">
                         <h5><a href="http://www.jariq.sk/" title="Brloh tvora menom jariq"><b>jariq.sk</b></a></h5>
@@ -452,7 +449,7 @@ include "includes/idn/idna_convert.class.php";
 				    </li>
 				<?php endforeach; ?>
                         </ul>
-                </div> 
+                </div>
 
                  <div class="newsblock">
                         <h5><a href="http://lukas.zapletalovi.com/" title="FF Mag"><b>lukas.zapletalovi.com</b></a></h5>
