@@ -27,7 +27,10 @@ pageTracker._trackPageview();
 } catch(err) {}</script>
 
     <script type='text/javascript'>
-	QueryLoader.init();
+		$(document).ready(function () {
+	    $("body").queryLoader2();
+	});
     </script>
+
 </body>
 </html>

@@ -58,7 +58,7 @@
                       <h2><img src="http://linuxos.sk/favicon.ico" style="height:16px;width16px;" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - správičky</a></h2>
                       <ul>
 												<?php $feed04 = new SimplePie('http://linuxos.sk/spravy_rss/index.html'); ?>
-												<?php foreach ($feed04->get_items(0, 10) as $item): ?>
+												<?php foreach ($feed04->get_items(0, 5) as $item): ?>
 												    <li>
 												        <a href="<?php print $item->get_permalink(); ?>">
 												        <?php print $item->get_title(); ?></a>
@@ -71,7 +71,7 @@
                       <h2><img src="http://linuxos.sk/favicon.ico" style="height:16px;width16px;" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - fórum</a></h2>
                       <ul>
 												<?php $feed05 = new SimplePie('http://linuxos.sk/forum_rss/index.html'); ?>
-												<?php foreach ($feed05->get_items(0, 8) as $item): ?>
+												<?php foreach ($feed05->get_items(0, 5) as $item): ?>
 												    <li>
 												        <a href="<?php print $item->get_permalink(); ?>">
 												        <?php print $item->get_title(); ?></a>
