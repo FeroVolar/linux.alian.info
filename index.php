@@ -174,7 +174,6 @@
 
                     <div style="clear:both"></div>
 
-
                     <div class="newsblock">
                       <h2><img src="http://www.linuxexpres.cz/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Software, hardware, recenze, návody - Linux E X P R E S"><b>linuxexpres.cz</b></a></h2>
                       <ul>
@@ -201,7 +200,7 @@
 											</ul>
                     </div>
 
-										<div class="newsblock">
+									<div class="newsblock">
 	                      <h2><img src="http://www.openoffice.cz/favicon.ico" border="0" /> <a href="http://www.openoffice.cz/" title="OpenOffice.cz  | Oficiální portál kancelářkého balíku OpenOffice.org"><b>openoffice.cz</b></a></h2>
 	                      <ul>
 									 				<?php $feed15 = new SimplePie('http://www.openoffice.cz/rss/clanky'); ?>
@@ -219,10 +218,11 @@
 
                  <div style="clear:both"></div>
 
+ 							 <h6>distribúcie</h6>
                  <div class="newsblock">
-                  <h5><a href="http://forums.gentoo.cz/" title="csGLUG - gentoo.cz"><b>gentoo.cz</b></a></h5>
+                  <h5><img src="http://fedora.cz/wp-content/themes/fedora-cz/img/favicon.png" border="0" /> <a href="http://fedora.cz" title="fedora.cz"><b>fedora.cz</b></a></h5>
                   <ul>
-										<?php $feed22 = new SimplePie('http://forums.gentoo.cz/rss.php'); ?>
+										<?php $feed22 = new SimplePie('http://fedora.cz/feed/'); ?>
 										<?php foreach ($feed22->get_items(0, 3) as $item): ?>
 										    <li>
 										        <a href="<?php print $item->get_permalink(); ?>">
@@ -233,9 +233,9 @@
                 </div>
 
                     <div class="newsblock">
-                      <h5><a href="http://www.mandrivalinux.cz" title="MandrivaLinux.cz :: webový portál zaměřený na podporu a propagaci Mandriva Linuxu"><b>mandrivalinux.cz</b></a></h5>
+                      <h5><img src="http://test.linux-mint-czech.cz/wp-content/uploads/2013/12/lm_logo_male.png" style="height:16px;width16px;" border="0" /> <a href="http://www.linux-mint-czech.cz/" title="Linux Mint CZ&amp;SK"><b>linux-mint-czech.cz</b></a></h5>
                       <ul>
-												<?php $feed23 = new SimplePie('http://www.mandrivalinux.cz/modules/rss/rss.php?module=marwel'); ?>
+												<?php $feed23 = new SimplePie('http://www.linux-mint-czech.cz/feed/'); ?>
 												<?php foreach ($feed23->get_items(0, 3) as $item): ?>
 												    <li>
 												        <a href="<?php print $item->get_permalink(); ?>">
@@ -246,7 +246,7 @@
                     </div>
 
                   <div class="newsblock">
-                      <h5><a href="http://www.opensuse.cz" title="SUSE Linux Portal | Vše, co potřebujete pro váš SUSE Linux"><b>opensuse.cz</b></a></h5>
+                      <h5><img src="http://www.opensuse.cz/files/favicon.ico" border="0" /> <a href="http://www.opensuse.cz" title="SUSE Linux Portal | Vše, co potřebujete pro váš SUSE Linux"><b>opensuse.cz</b></a></h5>
                       <ul>
 												<?php $feed24 = new SimplePie('http://www.opensuse.cz/node/feed'); ?>
 												<?php foreach ($feed24->get_items(0, 3) as $item): ?>
