@@ -285,15 +285,15 @@
                 </div>
 
                  <div class="newsblock">
-                        <h5><a href="http://www.czilla.cz/" title="CZilla: Mozilla v češtině"><b>czilla.cz</b></a></h5>
+                    <h5><a href="http://wp.sk/" title="Wordpress Slovensko"><b>wp.sk</b></a></h5>
                         <ul>
-				<?php $feed27 = new SimplePie('http://www.czilla.cz/rss/zpravicky/'); ?>
-				<?php foreach ($feed27->get_items(0, 3) as $item): ?>
-				    <li>
-				        <a href="<?php print $item->get_permalink(); ?>">
-				        <?php print $item->get_title(); ?></a>
-				    </li>
-				<?php endforeach; ?>
+													<?php $feed27 = new SimplePie('http://wp.sk/feed/'); ?>
+													<?php foreach ($feed27->get_items(0, 3) as $item): ?>
+													    <li>
+													        <a href="<?php print $item->get_permalink(); ?>">
+													        <?php print $item->get_title(); ?></a>
+													    </li>
+													<?php endforeach; ?>
                         </ul>
                 </div>
 
