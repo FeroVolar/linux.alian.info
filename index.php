@@ -259,9 +259,9 @@
 
                <h6>open-source</h6>
                   <div class="newsblock">
-                      <h5><a href="http://www.gimp.cz/" title="Gimp.cz … opět zpátky na scéně"><b>gimp.cz</b></a></h5>
+                      <h5><a href="http://www.drupal.sk/" title="Slovenská Drupal komunita"><b>drupal.sk</b></a></h5>
                       <ul>
-												<?php $feed25 = new SimplePie('http://www.gimp.cz/feed/'); ?>
+												<?php $feed25 = new SimplePie('http://www.drupal.sk/node/feed'); ?>
 												<?php foreach ($feed25->get_items(0, 3) as $item): ?>
 												    <li>
 												        <a href="<?php print $item->get_permalink(); ?>">
@@ -272,9 +272,9 @@
                     </div>
 
                  <div class="newsblock">
-                  <h5><a href="http://www.mozilla.sk/" title="Mozilla.sk – základňa slovenskej lokalizačnej komunity"><b>mozilla.sk</b></a></h5>
+                  <h5><a href="http://wp.sk/" title="WordPress Slovensko"><b>wp.sk</b></a></h5>
                   <ul>
-										<?php $feed26 = new SimplePie('http://www.mozilla.sk/feed/'); ?>
+										<?php $feed26 = new SimplePie('http://wp.sk/feed/'); ?>
 										<?php foreach ($feed26->get_items(0, 3) as $item): ?>
 										    <li>
 										        <a href="<?php print $item->get_permalink(); ?>">
@@ -285,10 +285,9 @@
                 </div>
 
                  <div class="newsblock">
-<<<<<<< HEAD
-                  <h5><a href="http://www.czilla.cz/" title="CZilla: Mozilla v češtině"><b>czilla.cz</b></a></h5>
+                  <h5><a href="http://www.zdrojak.cz/" title="Zdroják - o tvorbě webových stránek a aplikací"><b>zdrojak.cz</b></a></h5>
                   <ul>
-										<?php $feed27 = new SimplePie('http://www.czilla.cz/rss/zpravicky/'); ?>
+										<?php $feed27 = new SimplePie('https://www.zdrojak.cz/feed/'); ?>
 										<?php foreach ($feed27->get_items(0, 3) as $item): ?>
 									    <li>
 									      <a href="<?php print $item->get_permalink(); ?>">
@@ -296,18 +295,6 @@
 									    </li>
 									 	  <?php endforeach; ?>
                   </ul>
-=======
-                    <h5><a href="http://wp.sk/" title="Wordpress Slovensko"><b>wp.sk</b></a></h5>
-                        <ul>
-													<?php $feed27 = new SimplePie('http://wp.sk/feed/'); ?>
-													<?php foreach ($feed27->get_items(0, 3) as $item): ?>
-													    <li>
-													        <a href="<?php print $item->get_permalink(); ?>">
-													        <?php print $item->get_title(); ?></a>
-													    </li>
-													<?php endforeach; ?>
-                        </ul>
->>>>>>> 2d8a8328c1693f434d8dbdeaefa308e190fbff61
                 </div>
 
                          <div style="clear:both"></div>
