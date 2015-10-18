@@ -315,7 +315,7 @@
 
 
 
-                         <div style="clear:both"></div>
+                <div style="clear:both"></div>
 
                  <div class="newsblock">
                         <h5><a href="http://penguin.cz/" title="Neziskový server pro podporu Linuxu, UNIXu a free-software"><b>penguin.cz</b></a></h5>
@@ -344,9 +344,9 @@
                 </div>
 
                  <div class="newsblock">
-                        <h5><a href="http://lukas.zapletalovi.com/" title="FF Mag"><b>lukas.zapletalovi.com</b></a></h5>
+                        <h5><a href="http://datastory.cz" title="datastory.cz"><b>datastory.cz</b></a></h5>
                         <ul>
-												<?php $feed25 = new SimplePie('http://feeds.feedburner.com/LukasZapletal'); ?>
+												<?php $feed25 = new SimplePie('http://datastory.cz/feed'); ?>
 												<?php foreach ($feed25->get_items(0, 3) as $item): ?>
 												    <li>
 												        <a href="<?php print $item->get_permalink(); ?>">
@@ -356,7 +356,74 @@
                         </ul>
                 </div>
 
-                         <div style="clear:both"></div>
+								<div class="newsblock">
+											 <h5><a href="http://blog.frantovo.cz" title="blog.frantovo.cz"><b>blog.frantovo.cz</b></a></h5>
+											 <ul>
+											 <?php $feed26 = new SimplePie('http://blog.frantovo.cz/agregace/c/?f=rss'); ?>
+											 <?php foreach ($feed26->get_items(0, 3) as $item): ?>
+													 <li>
+															 <a href="<?php print $item->get_permalink(); ?>">
+															 <?php print $item->get_title(); ?></a>
+													 </li>
+											 <?php endforeach; ?>
+											 </ul>
+							 </div>
+
+							 <div class="newsblock">
+											<h5><a href="http://heronovo.cz" title="heronovo.cz"><b>heronovo.cz</b></a></h5>
+											<ul>
+											<?php $feed27 = new SimplePie('http://www.heronovo.cz/feed/'); ?>
+											<?php foreach ($feed27->get_items(0, 3) as $item): ?>
+													<li>
+															<a href="<?php print $item->get_permalink(); ?>">
+															<?php print $item->get_title(); ?></a>
+													</li>
+											<?php endforeach; ?>
+											</ul>
+							</div>
+
+							<div style="clear:both"></div>
+
+							<div class="newsblock">
+										 <h5><a href="http://joysfera.blogspot.com" title="hjoysfera.blogspot.com"><b>joysfera.blogspot.com</b></a></h5>
+										 <ul>
+										 <?php $feed28 = new SimplePie('http://joysfera.blogspot.com/feeds/posts/default'); ?>
+										 <?php foreach ($feed28->get_items(0, 3) as $item): ?>
+												 <li>
+														 <a href="<?php print $item->get_permalink(); ?>">
+														 <?php print $item->get_title(); ?></a>
+												 </li>
+										 <?php endforeach; ?>
+										 </ul>
+						 </div>
+
+						 <div class="newsblock">
+										<h5><a href="http://blog.ok1cdj.com" title="blog.ok1cdj.com"><b>blog.ok1cdj.com</b></a></h5>
+										<ul>
+										<?php $feed29 = new SimplePie('http://blog.ok1cdj.com/feeds/posts/default'); ?>
+										<?php foreach ($feed29->get_items(0, 3) as $item): ?>
+												<li>
+														<a href="<?php print $item->get_permalink(); ?>">
+														<?php print $item->get_title(); ?></a>
+												</li>
+										<?php endforeach; ?>
+										</ul>
+						</div>
+
+						<div class="newsblock">
+									 <h5><a href="http://blog.eischmann.cz" title="blog.eischmann.cz"><b>blog.eischmann.cz</b></a></h5>
+									 <ul>
+									 <?php $feed30 = new SimplePie('http://blog.eischmann.cz/feed/'); ?>
+									 <?php foreach ($feed30->get_items(0, 3) as $item): ?>
+											 <li>
+													 <a href="<?php print $item->get_permalink(); ?>">
+													 <?php print $item->get_title(); ?></a>
+											 </li>
+									 <?php endforeach; ?>
+									 </ul>
+					 </div>
+
+					 <div style="clear:both"></div>
 
 			</div>
 		</div>
