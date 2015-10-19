@@ -2,7 +2,8 @@
 
 	<div id="footer">
 	Web <a href="http://LINUX.alian.info">LINUX.alian.info</a> je prehľadný slovensko-český agregátor správ zo sveta<br /> operačného systému Linux, open-source, bezpečnosti a informačných technológii.<br /><br />
-<a href="http://LINUX.alian.info">LINUX.alian.info</a> používa  <a href="http://simplepie.org/">SimplePie</a>, <a href="http://www.feedburner.com">FeedBurner</a> a <a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a>.<br /> Linux je ochranná známka Linusa Torvaldsa.<br /><br />
+<a href="http://LINUX.alian.info">LINUX.alian.info</a> používa  <a href="http://simplepie.org/">SimplePie</a>.<br />
+Linux je ochranná známka Linusa Torvaldsa.<br /><br />
 Vytvoril s ❤ <a href="http://www.ferovolar.com">FeroVolar.com</a> &copy; 2009 - <?php echo date("Y") ?> | <a href="http://feeds.feedburner.com/linuxAI">RSS</a><br />
 
 
