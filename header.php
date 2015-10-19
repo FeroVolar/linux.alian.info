@@ -7,7 +7,6 @@
 	<title>Linux, open-source, security a IT na jedno kliknutie | LINUX.alian.info</title>
 	<meta name="description" content="Prehľadný slovensko-český agregátor správ zo sveta operačného systému Linux, open-source a informačných technológii." />
 	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
-	<link rel="alternate" type="application/rss+xml" title="LINUX.alian.info RSS Feed" href="http://feeds.feedburner.com/linuxAI" />
 	<link rel="shortcut icon" href="images/favicon.png">
 
 
@@ -23,8 +22,7 @@
 <div class="content">
 	<div id="top">
 		<div id="logo">
-		<img src="images/l.gif" border="0" align="left" />
-		  <a href="http://feeds.feedburner.com/linuxAI"><img src="http://feeds.feedburner.com/~fc/linuxAI?bg=282828&amp;fg=BEBEBE&amp;anim=0" height="26" width="88" style="border:0" alt="" align="right" /></a>
+			<img src="images/l.gif" border="0" align="left" />
 		  <h3><a href="http://linux.alian.info/"><b>LINUX</b>.alian.info</a></h3>
 			<p>... Linux, open-source a IT na jedno kliknutie</p>
 		</div>
