@@ -300,50 +300,7 @@
               <div style="clear:both"></div>
 
                <h6>blogy</h6>
-                <div class="newsblock">
-                  <h5><a href="http://www.bibri.net/" title="Detaily dělají dokonalou práci"><b>bibri.net</b></a></h5>
-                  <ul>
-										<?php $feed22 = new SimplePie('http://www.bibri.net/feed/'); ?>
-											<?php foreach ($feed22->get_items(0, 3) as $item): ?>
-												<li>
-											  	<a href="<?php print $item->get_permalink(); ?>">
-											    <?php print $item->get_title(); ?></a>
-											  </li>
-												<?php endforeach; ?>
-                      </ul>
-                </div>
-
-
-
-                <div style="clear:both"></div>
-
-                 <div class="newsblock">
-                        <h5><a href="http://penguin.cz/" title="Neziskový server pro podporu Linuxu, UNIXu a free-software"><b>penguin.cz</b></a></h5>
-                        <ul>
-												<?php $feed23 = new SimplePie('http://www.penguin.cz/rss.php'); ?>
-												<?php foreach ($feed23->get_items(0, 3) as $item): ?>
-												    <li>
-												        <a href="<?php print $item->get_permalink(); ?>">
-												        <?php print $item->get_title(); ?></a>
-												    </li>
-												<?php endforeach; ?>
-                        </ul>
-                </div>
-
-                 <div class="newsblock">
-                        <h5><a href="http://www.jariq.sk/" title="Brloh tvora menom jariq"><b>jariq.sk</b></a></h5>
-                        <ul>
-														<?php $feed24 = new SimplePie('http://www.jariq.sk/xml-rss2.php'); ?>
-														<?php foreach ($feed24->get_items(0, 3) as $item): ?>
-														    <li>
-														        <a href="<?php print $item->get_permalink(); ?>">
-														        <?php print $item->get_title(); ?></a>
-														    </li>
-												<?php endforeach; ?>
-                        </ul>
-                </div>
-
-                 <div class="newsblock">
+							 <div class="newsblock">
                         <h5><a href="http://datastory.cz" title="datastory.cz"><b>datastory.cz</b></a></h5>
                         <ul>
 												<?php $feed25 = new SimplePie('http://datastory.cz/feed'); ?>
