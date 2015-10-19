@@ -37,7 +37,7 @@
 											</ul>
                     </div>
 
-                    <a href="http://feeds.feedburner.com/linuxAI"><img src="http://linux.alian.info/images/rss.gif" border="0" align="right" alt="RSS" /></a>
+                    <a href="https://www.facebook.com/groups/devopsk/" target="_blank"><img src="http://linux.alian.info/images/devops.jpg" border="0" align="right" alt="DevOps Slovensko" /></a>
 
                     <div style="clear:both"></div>
 
