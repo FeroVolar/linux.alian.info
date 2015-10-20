@@ -9,12 +9,9 @@
 	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
 	<link rel="shortcut icon" href="images/favicon.png">
 
-
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/boxover.js"></script>
 	<script type="text/javascript" src="js/queryloader2.min.js"></script>
-
-
 
 </head>
 

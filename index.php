@@ -7,10 +7,8 @@
 	include "includes/idn/idna_convert.class.php";
 ?>
 
-
 		<div>
 			<div class="news-entry">
-
                     <div class="newsblock">
                       <h2><a href="http://alian.info" title="Blog o informačných technológiách (IT), mobilných zariadeniach, programovaní, internete, software, hardware a tak trochu aj o živote, názoroch, politike, hudbe a štýle."><b>alian.info</b></a></h2>
                       <ul>
@@ -40,7 +38,6 @@
                     <a href="https://www.facebook.com/groups/devopsk/" target="_blank"><img src="http://linux.alian.info/images/devops.jpg" border="0" align="right" alt="DevOps Slovensko" /></a>
 
                     <div style="clear:both"></div>
-
                     <div class="newsblock">
                       <h2><img src="http://linuxos.sk/favicon.ico" style="height:16px;width16px;" border="0" /> <a href="http://linuxos.sk/" title="LinuxOS.sk plní úlohu informačného portálu, denne prináša novinky zo sveta Linuxu, open-source a IT, odborné články týkajúce sa linuxového softvéru a distribúcií, bezpečnosti či konfigurácie"><b>linuxOS.sk</b> - články</a></h2>
                       <ul>
@@ -91,7 +88,6 @@
                     </div>
 
                     <div style="clear:both"></div>
-
                     <div class="newsblock">
                       <h2><img src="http://abclinuxu.cz/images/site2/favicon.png" border="0" /> <a href="http://abclinuxu.cz" title="abclinuxu.cz - Linux na stříbrném podnose"><b>abclinuxu.cz</b> - články</a></h2>
                       <ul>
@@ -132,7 +128,6 @@
                     </div>
 
                     <div style="clear:both"></div>
-
                     <div class="newsblock">
                       <h2><img src="http://i.iinfo.cz/r2/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Root.cz - linux, open source a free software"><b>root.cz</b> - články</a></h2>
                       <ul>
@@ -173,7 +168,6 @@
                     </div>
 
                     <div style="clear:both"></div>
-
                     <div class="newsblock">
                       <h2><img src="http://www.linuxexpres.cz/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Software, hardware, recenze, návody - Linux E X P R E S"><b>linuxexpres.cz</b></a></h2>
                       <ul>
