@@ -216,24 +216,11 @@
                  <div style="clear:both"></div>
 
  							 <h6>distribúcie</h6>
-                 <div class="newsblock">
-                  <h5><a href="http://fedora.cz" title="fedora.cz"><b>fedora.cz</b></a></h5>
-                  <ul>
-										<?php $feed16 = new SimplePie('http://fedora.cz/feed/'); ?>
-										<?php foreach ($feed16->get_items(0, 3) as $item): ?>
-										    <li>
-										        <a href="<?php print $item->get_permalink(); ?>">
-										        <?php print $item->get_title(); ?></a>
-										    </li>
-										<?php endforeach; ?>
-									</ul>
-                </div>
-
                     <div class="newsblock">
                       <h5><a href="http://www.linux-mint-czech.cz/" title="Linux Mint CZ&amp;SK"><b>linux-mint-czech.cz</b></a></h5>
                       <ul>
-												<?php $feed17 = new SimplePie('http://www.linux-mint-czech.cz/feed/'); ?>
-												<?php foreach ($feed17->get_items(0, 3) as $item): ?>
+												<?php $feed16 = new SimplePie('http://www.linux-mint-czech.cz/feed/'); ?>
+												<?php foreach ($feed16->get_items(0, 3) as $item): ?>
 												    <li>
 												        <a href="<?php print $item->get_permalink(); ?>">
 												        <?php print $item->get_title(); ?></a>
@@ -241,6 +228,19 @@
 												<?php endforeach; ?>
 											</ul>
                     </div>
+
+										<div class="newsblock">
+	                   <h5><a href="http://mojefedora.cz" title="mojefedora.cz"><b>mojefedora.cz</b></a></h5>
+	                   <ul>
+	 										<?php $feed17 = new SimplePie('http://mojefedora.cz/feed/'); ?>
+	 										<?php foreach ($feed17->get_items(0, 3) as $item): ?>
+	 										    <li>
+	 										        <a href="<?php print $item->get_permalink(); ?>">
+	 										        <?php print $item->get_title(); ?></a>
+	 										    </li>
+	 										<?php endforeach; ?>
+	 									</ul>
+	                 </div>
 
                   <div class="newsblock">
                       <h5><a href="http://www.opensuse.cz" title="SUSE Linux Portal | Vše, co potřebujete pro váš SUSE Linux"><b>opensuse.cz</b></a></h5>
