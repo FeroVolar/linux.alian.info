@@ -22,19 +22,6 @@
 											</ul>
                     </div>
 
-                    <div class="newsblock">
-                      <h2><a href="http://planet.opensoft.sk/" title="Slovenská a česká komunita okolo free software. Obsah blogov nie je tematicky vyhranený"><b>SK/CZ</b> free software community</a></h2>
-                      <ul>
-												<?php $feed02 = new SimplePie('http://planet.opensoft.sk/rss20.xml'); ?>
-												<?php foreach ($feed02->get_items(0, 10) as $item): ?>
-												    <li>
-												        <a href="<?php print $item->get_permalink(); ?>">
-												        <?php print $item->get_title(); ?></a>
-												    </li>
-												<?php endforeach; ?>
-											</ul>
-                    </div>
-
                     <a href="https://www.facebook.com/groups/devopsk/" target="_blank"><img src="http://linux.alian.info/images/devops.jpg" border="0" align="right" alt="DevOps Slovensko" /></a>
 
                     <div style="clear:both"></div>
@@ -168,18 +155,6 @@
                     </div>
 
                     <div style="clear:both"></div>
-                    <div class="newsblock">
-                      <h2><img src="http://www.linuxexpres.cz/favicon.ico" border="0" /> <a href="http://www.root.cz" title="Software, hardware, recenze, návody - Linux E X P R E S"><b>linuxexpres.cz</b></a></h2>
-                      <ul>
-												<?php $feed13 = new SimplePie('http://www.linuxexpres.cz/rss/clanky'); ?>
-												<?php foreach ($feed13->get_items(0, 5) as $item): ?>
-												    <li>
-												        <a href="<?php print $item->get_permalink(); ?>">
-												        <?php print $item->get_title(); ?></a>
-												    </li>
-												<?php endforeach; ?>
-											</ul>
-                    </div>
 
                   <div class="newsblock">
                       <h2><img src="http://www.linuxsoft.cz/img/favicon.ico" border="0" /> <a href="http://www.linuxsoft.cz" title="Linux Software"><b>linuxsoft.cz</b></a></h2>
@@ -252,18 +227,6 @@
                         <div style="clear:both"></div>
 
                <h6>open-source</h6>
-                  <div class="newsblock">
-                      <h5><a href="http://www.drupal.sk/" title="Slovenská Drupal komunita"><b>drupal.sk</b></a></h5>
-                      <ul>
-												<?php $feed19 = new SimplePie('http://www.drupal.sk/node/feed'); ?>
-												<?php foreach ($feed19->get_items(0, 3) as $item): ?>
-												    <li>
-												        <a href="<?php print $item->get_permalink(); ?>">
-												        <?php print $item->get_title(); ?></a>
-												    </li>
-												<?php endforeach; ?>
-											</ul>
-                    </div>
 
                  <div class="newsblock">
                   <h5><a href="http://wp.sk/" title="WordPress Slovensko"><b>wp.sk</b></a></h5>
